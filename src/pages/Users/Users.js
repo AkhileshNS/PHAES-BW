@@ -2,10 +2,9 @@
 // External Modules
 import React, { Component } from 'react';
 import {Box, Text, Heading} from 'grommet';
-import {subscribe, unsubscribe, getAllUsers} from '../../store/store';
 
-// Internal CSS and Components
-import './Users.css';
+// Store
+import {subscribe, unsubscribe, getAllUsers} from '../../store/store';
 
 class Users extends Component {
     state = {

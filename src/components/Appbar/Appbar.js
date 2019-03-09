@@ -4,9 +4,6 @@ import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
 import {Box, Button} from 'grommet';
 
-// Internal CSS and Components
-import './Appbar.css';
-
 class Appbar extends Component {
     render() {
         return <Box direction="row" justify="center" margin="small">

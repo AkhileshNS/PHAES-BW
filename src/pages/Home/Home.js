@@ -2,10 +2,9 @@
 // External Modules
 import React, { Component } from 'react';
 import {Box, Form, FormField, Button} from 'grommet';
-import {getUser, setUser} from '../../store/store';
 
-// Internal CSS and Components
-import './Home.css';
+// Store
+import {getUser, setUser} from '../../store/store';
 
 class Home extends Component {
     state = {
