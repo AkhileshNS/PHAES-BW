@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {Grommet} from 'grommet';
 
 // Internal Components and CSS
-import './App.css';
 import Appbar from './components/Appbar/Appbar';
 import Users from './pages/Users/Users';
 import User from './pages/User/User';
