@@ -7,7 +7,7 @@ let state = {
 
 let triggers = [];
 
-// Subscriptions
+// Subscription Methods
 export const subscribe = trigger => {
     triggers.push(trigger);
     trigger();
